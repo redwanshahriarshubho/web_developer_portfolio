@@ -25,6 +25,11 @@
 
 }
 
+.text-center{
+
+  text-align: center;
+}
+
 /*bg=background*/
 .secondary-bg{
 
@@ -133,9 +138,13 @@ width: 580px;
 
 
 .about-items{
+
   display: flex;
   justify-content: space-around;
 }
+
+  
+  
 
 .item-description{
 
@@ -149,4 +158,12 @@ main{
   padding: 130px, 150px;
   text-align: center;
   margin-top: 130px;
+}
+
+/*skills section styles */
+
+.skills-container{
+
+  display: flex;
+
 }
