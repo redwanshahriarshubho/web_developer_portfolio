@@ -9,10 +9,32 @@
 }
 
 /*shared style */
+
+
+
 .text-primary{
 
 
   color: #FD6E0A;
+}
+.section-title{
+
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+
+}
+
+/*bg=background*/
+.secondary-bg{
+
+  background-color: #fff8f3;
+}
+.section-description{
+
+
+  font-size: 18px;
+  color: #757575;
 }
 
 /*header */
@@ -99,4 +121,32 @@ font-size: 20px;
 
 width: 580px;
 
+}
+
+/*about styles*/
+
+.about{
+
+  border-radius: 10px;
+
+}
+
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-description{
+
+  font-weight: 600;
+}
+/*main styles*/
+main{
+
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px, 150px;
+  text-align: center;
+  margin-top: 130px;
 }
