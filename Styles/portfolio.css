@@ -128,11 +128,21 @@ width: 580px;
 
 }
 
+main section{
+
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
 /*about styles*/
 
 .about{
 
   border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+  
 
 }
 
@@ -141,12 +151,14 @@ width: 580px;
 
   display: flex;
   justify-content: space-around;
+
 }
 
   
   
 
 .item-description{
+
 
   font-weight: 600;
 }
@@ -160,10 +172,18 @@ main{
   margin-top: 130px;
 }
 
-/*skills section styles */
+/*skills section styles*/
 
 .skills-container{
 
-  display: flex;
 
+  display: flex;
+  gap: 24px;
+  
+}
+.skill{
+
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px black;
+  border-radius: 5px;
 }
